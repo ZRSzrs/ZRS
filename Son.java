@@ -6,7 +6,7 @@ public class Son extends Father{
     public void m1(){
         System.out.println("子类重写后的m1方法");
     }
-//子类方法返回值类型可以是父类方法返回值类型的子类
+//子类方法返回值类型可以是父类方法返回值类型的子类1111111
     public Son m2(){
         System.out.println("子类重写后的m2方法");
         return new Son();
